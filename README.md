@@ -16,7 +16,7 @@ Materiais de apoio:
 2 - Para adicionar imagens ou instalar dependecias utilize o arquivo pubspec.yaml na raiz da aplicação. Nele é possível informar qual o diretório que as imagens (assets) estarão na sua aplicação
     https://dart.dev/tools/pub/pubspec
 
-3 - Para incontrar versões de pacotes para instalar na aplicação utilize a plataforma https://pub.dev/, lembre-se de adicionar no arquivo pubspec.yaml na raíz da aplicação. Nela possui exemplos de como usar um determinado pacote e versão de instalação
+3 - Para encontrar versões de pacotes para instalar na aplicação utilize a plataforma https://pub.dev/, lembre-se de adicionar no arquivo pubspec.yaml na raíz da aplicação. Nela possui exemplos de como usar um determinado pacote e versão de instalação
 
 4 - Diversos conteúdos: https://medium.com/flutter
 
@@ -24,7 +24,7 @@ Materiais de apoio:
 
 6 - Informações sobre o Coletor de Lixo do Flutter https://medium.com/flutter/flutter-dont-fear-the-garbage-collector-d69b3ff1ca30
 
-7 - Apps com componentes responsivos: https://github.com/flutter/flutter/wiki/Creating-Responsive-Appsgit remote add origin
+7 - Apps com componentes responsivos: https://github.com/flutter/flutter/wiki/Creating-Responsive-Apps
 
 Bug: Não foi ajustado o retorno para a tela Home, o aplicativo começa a 'carregar infinitamente'.
 
