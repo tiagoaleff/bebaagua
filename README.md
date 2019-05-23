@@ -1,6 +1,7 @@
 Protótipo Aplicativo Lembrete de beber água em Flutter
 
 O que falta:
+
 1 - Falta funcionalidade para programar as notificações pelo tempo de distribuição
     obs: ver documentação: https://github.com/MaikuB/flutter_local_notifications
     
