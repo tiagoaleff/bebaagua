@@ -40,6 +40,21 @@ Arquivo ui/historico.dart
 Arquivo ui/configuracao.dart
     Possui os campos de entrada de peso e idade para o cálculo de quantidade de agua necessária por pessoa.
 
+Arquivo logo/logo.dart
+    Possui uma pequena animação que não é chamada em outra parte do app, mas caso queira testar apenas chame o component main
+    Exemplo:
+
+    class MyApp extends StatelessWidget {
+      @override
+      Widget build(BuildContext context) {
+        return MaterialApp(
+          title: 'Lembrete de beber água',
+          debugShowCheckedModeBanner: false,
+          home: LogoApp(), // aqui esta a chamada do componente da Logo
+        );
+      }
+    }
+
 Arquivo repositorio/Repositorio.dart
     Possui a lógica para salvar a imformação da média de água diária por pessoa. Esse arquivo pode ser alterado para mudar a forma de persistência, utilizando persistênica com o Shared Preferences Plugin (https://pub.dev/packages/shared_preferences),
 Sqflite (https://pub.dev/packages/sqflite) ou o Firebase Cloude Storage (https://pub.dev/packages/firebase_storage)
