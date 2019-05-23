@@ -26,6 +26,13 @@ Materiais de apoio:
 
 7 - Apps com componentes responsivos: https://github.com/flutter/flutter/wiki/Creating-Responsive-Apps
 
+    Padrão de Projeto
+8 - Redux (Video: https://www.youtube.com/watch?v=Wj216eSBBWs, Artigo: https://blog.novoda.com/introduction-to-redux-in-flutter/)
+
+9 - Bloc Pattern (Video: https://www.youtube.com/watch?v=UletIHoXMHA - PT-BR, Artigo https://medium.com/flutterpub/architecting-your-flutter-project-bd04e144a8f1)
+
+
+
 Bug: Não foi ajustado o retorno para a tela Home, o aplicativo começa a 'carregar infinitamente'.
 
 Resumo App:
@@ -42,8 +49,12 @@ Arquivo ui/historico.dart
 Arquivo ui/configuracao.dart
     Possui os campos de entrada de peso e idade para o cálculo de quantidade de agua necessária por pessoa.
 
+Arquivo repositorio/Repositorio.dart
+    Possui a lógica para salvar a imformação da média de água diária por pessoa. Esse arquivo pode ser alterado para mudar a forma de persistência, utilizando persistênica com o Shared Preferences Plugin (https://pub.dev/packages/shared_preferences),
+Sqflite (https://pub.dev/packages/sqflite) ou o Firebase Cloude Storage (https://pub.dev/packages/firebase_storage)
+
 Arquivo logo/logo.dart
-    Possui uma pequena animação que não é chamada em outra parte do app, mas caso queira testar apenas chame o component main
+    Possui uma pequena animação que não é chamada em outra parte do app, mas caso queira testar apenas chame o component no Componente/Widget main.dart
     Exemplo:
 
     class MyApp extends StatelessWidget {
@@ -57,9 +68,6 @@ Arquivo logo/logo.dart
       }
     }
 
-Arquivo repositorio/Repositorio.dart
-    Possui a lógica para salvar a imformação da média de água diária por pessoa. Esse arquivo pode ser alterado para mudar a forma de persistência, utilizando persistênica com o Shared Preferences Plugin (https://pub.dev/packages/shared_preferences),
-Sqflite (https://pub.dev/packages/sqflite) ou o Firebase Cloude Storage (https://pub.dev/packages/firebase_storage)
 
 
 
