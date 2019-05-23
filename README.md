@@ -3,7 +3,9 @@ Protótipo Aplicativo Lembrete de beber água
 O que falta:
 1 - Falta funcionalidade para programar as notificações pelo tempo de distribuição
     obs: ver documentação: https://github.com/MaikuB/flutter_local_notifications
+    
 2 - Persistência das informações do histórico de água.
+
 3 - Persistência da quantidade bebida durante o dia.
 
 Materiais de apoio:
